@@ -1,6 +1,7 @@
 window.onload = function () {"use strict";
 
-let username = document.getElementById("username"); //Skriva in användarnamn														 
+let username = document.getElementById("username"); //Skriva in användarnamn	
+let useremail = document.getElementById("useremail"); //Skriva in mailadress														 
 let write = document.getElementById("write");        //Det meddelande man skriver 
 let msgbox = document.getElementById("msgbox");      //Meddelandefönstret där allt hamnar
 let submit = document.getElementById("submit");      //Skicka meddelande-knapp
@@ -9,6 +10,7 @@ var table = document.getElementById("table");       //Tabell
 
 let totalmsg = 0;
 let user = localStorage.getItem("username");
+let userEmail = localStorage.getItem("useremail");														 
 	
 														 
 														 

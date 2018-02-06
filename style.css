@@ -4,10 +4,19 @@
 
 body {
 	overflow: auto;
+	font-family: "Josefin Sans";
 }
 
 #aboutText {
-	text-align: center;
+	text-align: left;
+	justify-content: center;
+	width: 40%;
+	display: inline-block;
+}
+
+#aboutPic {
+	display: inline-block;
+	
 }
 
 #entryInput {
@@ -33,7 +42,7 @@ body {
 }
 
 p {
-	font-family: "Josefin Sans";
+	
 }
 
 #wrapper {
@@ -103,7 +112,7 @@ header {
 
 #arrowDown {
   position: absolute;
-  top: 93%;
+  top: 120%;
   left: 50%;
 	font-size: 24px;
 }
