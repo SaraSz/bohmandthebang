@@ -4,18 +4,24 @@
 
 body {
 	overflow: auto;
-	font-family: "Josefin Sans";
+	font-family: "Josefin Sans";	
+	
 }
 
 #aboutText {
 	text-align: left;
 	justify-content: center;
-	width: 40%;
+	width: 42%;
 	display: inline-block;
+	margin-top: 50px;
 }
 
 #aboutPic {
-	display: inline-block;
+	display: block;
+	margin-left: 10%;
+	margin-right: 30px;
+	float: left;
+	margin-top: 10px;
 	
 }
 
@@ -148,4 +154,14 @@ th {
     height: 40px;
     background-color: #BD615E;
     font-size: 18px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
 }
