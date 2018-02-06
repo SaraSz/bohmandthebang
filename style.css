@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Creepster');
+
+
+body {
+	overflow: auto;
+}
+
+#aboutText {
+	text-align: center;
+}
+
+#entryInput {
+	height: 105px;
+	width: 200px;
+}
+
+
+.albums {
+  width: 15vw;
+  height: 15vw;
+	border: 2px solid red;
+	margin-top: 50%;
+	margin-left: 33%;
+}
+
+.comingsoon {
+  width: 15vw;
+  height: 15vw;
+	border: 2px solid grey;
+	margin-top: 50%;
+	margin-right: 33%;
+}
+
+p {
+	font-family: "Josefin Sans";
+}
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 98%;
+	
+}
+
+header {
+	min-height: 50px;
+	padding: 5px;
+	font-family: "Josefin Sans";
+}
+
+#nav {
+	text-align: center;
+	margin-top: -45px;
+}
+#nav li {
+	display: inline;
+}
+
+#nav a {
+	text-decoration: none; 
+	padding:0 30px;
+	color: black;
+}
+
+/*a:hover, .active {
+	color: plum;
+}*/
+
+#nav a:active, #nav a:focus, #nav a:hover {
+	color: #bd615e; 
+}
+
+#nav a.highlite {
+	color: #bd615e;
+}
+
+.mySlides {
+  top: 5;
+  z-index: -1;
+	opacity: 1;
+}
+
+.slidePics {
+	width: 1350px;
+	height: 740px;
+	position: absolute;
+	border-radius: 4px;
+	padding: 40px 0;
+	margin-left: 4%;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: "Creepster";
+	font-style: italic;
+	color: plum;
+	font-size: 45px;
+}
+
+#arrowDown {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+	font-size: 24px;
+}
+
+h1 {
+	margin-top: 3%;
+	text-align: center;
+	font-family: "Creepster"
+}
+
+iframe {
+	margin-left: 40%;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    display: inline-table;
+    border-collapse: collapse;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+   
+}
+
+td {
+    padding: 10px;
+}
+
+th {
+    height: 40px;
+    background-color: #BD615E;
+    font-size: 18px;
+}
