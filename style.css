@@ -118,7 +118,7 @@ header {
 
 #arrowDown {
   position: absolute;
-  top: 120%;
+  bottom: 120%;
   left: 50%;
 	font-size: 24px;
 }
@@ -157,7 +157,7 @@ th {
 }
 
 .footer {
-   position: fixed;
+   position: absolute;
    left: 0;
    bottom: 0;
    width: 100%;

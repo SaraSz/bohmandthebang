@@ -1,4 +1,21 @@
-window.onload = function () {"use strict";
+/**************** SLIDE JQUERY *********************/
+$(function(){
+		$('.mySlides img:gt(0)').hide();
+	
+		setInterval(function(){
+			
+			$(".mySlides :first-child")
+				
+				.fadeOut(1000)
+				.next("img")
+				.show()
+				.fadeIn(1000)
+				.end()
+				.appendTo('.mySlides');}, 
+			5000);
+});
+
+/*window.onload = function () {"use strict";
 
 let username = document.getElementById("username"); //Skriva in användarnamn	
 let useremail = document.getElementById("useremail"); //Skriva in mailadress														 
@@ -14,7 +31,7 @@ let userEmail = localStorage.getItem("useremail");
 	
 														 
 														 
-/**********Firebase*************/
+/**********Firebase************
 														 
 submit.addEventListener("click", function(event) {
     console.log("Text: " + write.value + " hamnar i div");
@@ -61,28 +78,8 @@ table.appendChild(tr);
 /**************** ACTIVE MENU *********************/
 
 
-/**************** SLIDE JQUERY *********************/
-$(function(){
-		$('.mySlides img:gt(0)').hide();
-	
-		setInterval(function(){
-			
-			$(".mySlides :first-child")
-				
-				.fadeOut(1000)
-				.next("img")
-				.show()
-				.fadeIn(1000)
-				.end()
-				.appendTo('.mySlides');}, 
-			5000);
-});
-
 
 
 
 
 /**************** GUESTBOOK *********************/
-
-
-}
