@@ -3,7 +3,8 @@
 
 
 body {
-	overflow: auto;
+	overflow-x: hidden;
+  overflow-y: scroll;
 	font-family: "Josefin Sans";	
 	
 }
@@ -31,7 +32,7 @@ body {
 }
 
 
-.albums {
+/*.albums {
   width: 15vw;
   height: 15vw;
 	border: 2px solid red;
@@ -45,7 +46,7 @@ body {
 	border: 2px solid grey;
 	margin-top: 50%;
 	margin-right: 33%;
-}
+}*/
 
 p {
 	
@@ -106,14 +107,22 @@ header {
 }
 
 .centered {
+	text-decoration: none;
 	position: absolute;
-	top: 50%;
+	top: 125%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: "Creepster";
-	font-style: italic;
-	color: plum;
-	font-size: 45px;
+	font-size: 35px;
+}
+
+.amal {
+	text-decoration: none; 
+	color: #F07D19;
+}
+
+.amal:hover {
+	opacity: 0.5;
 }
 
 #arrowDown {
@@ -156,13 +165,31 @@ th {
     font-size: 18px;
 }
 
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook, .fa-instagram {
+  color: white;
+}
+
 .footer {
-	margin-top: 100%;
+	margin-top: 10%;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: red;
+	background-color: #bd615e;
 	color: white;
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
+	opacity: 0.7;
 }
