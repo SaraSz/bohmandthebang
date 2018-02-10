@@ -17,6 +17,14 @@ body {
 	margin-top: 50px;
 }
 
+#contactText {
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	display: inline-block;
+	margin-top: 20px;
+}
+
 #aboutPic {
 	display: block;
 	margin-left: 10%;
@@ -25,6 +33,14 @@ body {
 	margin-top: 10px;
 	
 }
+
+#contactPic {
+	display: block;
+	margin: auto;
+	background-color: #2C2D33;
+	
+}
+
 
 #entryInput {
 	height: 105px;
@@ -49,6 +65,7 @@ body {
 }*/
 
 p {
+	font-size: 18px;
 	
 }
 
@@ -68,6 +85,7 @@ header {
 #nav {
 	text-align: center;
 	margin-top: -45px;
+	text-transform: uppercase;
 }
 #nav li {
 	display: inline;
@@ -87,7 +105,7 @@ header {
 	color: #bd615e; 
 }
 
-#nav a.highlite {
+#nav #current {
 	color: #bd615e;
 }
 
@@ -109,7 +127,7 @@ header {
 .centered {
 	text-decoration: none;
 	position: absolute;
-	top: 125%;
+	top: 126%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: "Creepster";
@@ -184,12 +202,12 @@ th {
 
 .footer {
 	margin-top: 10%;
-	left: 0;
+	padding-top: 5px;
 	bottom: 0;
+	left: 0;
 	width: 100%;
 	background-color: #bd615e;
 	color: white;
 	text-align: center;
-	padding: 20px;
 	opacity: 0.7;
 }
