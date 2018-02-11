@@ -47,23 +47,6 @@ body {
 	width: 200px;
 }
 
-
-/*.albums {
-  width: 15vw;
-  height: 15vw;
-	border: 2px solid red;
-	margin-top: 50%;
-	margin-left: 33%;
-}
-
-.comingsoon {
-  width: 15vw;
-  height: 15vw;
-	border: 2px solid grey;
-	margin-top: 50%;
-	margin-right: 33%;
-}*/
-
 p {
 	font-size: 18px;
 	
@@ -97,9 +80,6 @@ header {
 	color: black;
 }
 
-/*a:hover, .active {
-	color: plum;
-}*/
 
 #nav a:active, #nav a:focus, #nav a:hover {
 	color: #bd615e; 
@@ -210,4 +190,8 @@ th {
 	color: white;
 	text-align: center;
 	opacity: 0.7;
+}
+
+.mailto:hover {
+	opacity: 0.5;
 }
