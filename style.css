@@ -14,7 +14,7 @@ body {
 	justify-content: center;
 	width: 42%;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 45px;
 }
 
 #contactText {
@@ -31,6 +31,7 @@ body {
 	margin-right: 30px;
 	float: left;
 	margin-top: 10px;
+	max-width: 100%;
 	
 }
 
@@ -41,12 +42,6 @@ body {
 	
 }
 
-
-#entryInput {
-	height: 105px;
-	width: 200px;
-}
-
 p {
 	font-size: 18px;
 	
@@ -55,8 +50,11 @@ p {
 #wrapper {
 	margin: 0 auto;
 	max-width: 100%;
-	width: 98%;
 	
+}
+
+.logo {
+	margin-left: 3%;
 }
 
 header {
@@ -97,17 +95,18 @@ header {
 
 .slidePics {
 	width: 1350px;
-	height: 740px;
+	height: 840px;
 	position: absolute;
 	border-radius: 4px;
 	padding: 40px 0;
-	margin-left: 4%;
+	margin-left: 6%;
+	max-width: 100%;
 }
 
 .centered {
 	text-decoration: none;
 	position: absolute;
-	top: 126%;
+	top: 136%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: "Creepster";
@@ -117,17 +116,11 @@ header {
 .amal {
 	text-decoration: none; 
 	color: #F07D19;
+	max-width: 100%;
 }
 
 .amal:hover {
 	opacity: 0.5;
-}
-
-#arrowDown {
-  position: absolute;
-  bottom: 120%;
-  left: 50%;
-	font-size: 24px;
 }
 
 h1 {
@@ -138,6 +131,7 @@ h1 {
 
 iframe {
 	margin-left: 40%;
+	
 }
 
 table {
